@@ -1,4 +1,535 @@
-<?php
-$Cvar="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";
-eval(str_rot13(gzinflate(str_rot13(base64_decode(($Cvar))))));
-?>	
+<?php $ {
+    "GLOBALS"
+}
+["lukforhyyof"] = "two";
+$ {
+    "GLOBALS"
+}
+["svwsvvsn"] = "one";
+$ {
+    "GLOBALS"
+}
+["whlwabvsps"] = "data";
+$ {
+    "GLOBALS"
+}
+["kimnxkmjgk"] = "ch";
+$ {
+    "GLOBALS"
+}
+["keevjrux"] = "get";
+$ {
+    "GLOBALS"
+}
+["qigigkaxpj"] = "url";
+$ {
+    "GLOBALS"
+}
+["sbljpgbc"] = "i";
+$ {
+    "GLOBALS"
+}
+["vzkndjabqtn"] = "t";
+$ {
+    "GLOBALS"
+}
+["uofguk"] = "cu";
+$ {
+    "GLOBALS"
+}
+["blfqmhqfxehb"] = "link";
+date_default_timezone_set("Asia/Jakarta");
+$thjnzvjmhc = "i";
+error_reporting(0);
+$ {
+    "GLOBALS"
+}
+["jsrwjesof"] = "l";
+set_time_limit(0);
+$iiqhshuifgg = "l";
+ini_set("memory_limit", "-1");
+ini_set("output_buffering", 0);
+ini_set("request_order", "GP");
+ini_set("variables_order", "EGPCS");
+ini_set("max_execution_time", "-1");
+echo "Input Your Claim Url: ";
+$ {
+    $ {
+        "GLOBALS"
+    }
+    ["blfqmhqfxehb"]
+} = trim(fgets(STDIN));
+echo "What is Currency: ";
+$ {
+    $ {
+        "GLOBALS"
+    }
+    ["uofguk"]
+} = trim(fgets(STDIN));
+echo "Time Until Payout: ";
+$ {
+    $ {
+        "GLOBALS"
+    }
+    ["vzkndjabqtn"]
+} = trim(fgets(STDIN));
+echo "Limit Proccess: ";
+$bxxaiwy = "i";
+$ {
+    $ {
+        "GLOBALS"
+    }
+    ["jsrwjesof"]
+} = trim(fgets(STDIN));
+for ($ {
+    $ {
+        "GLOBALS"
+    }
+    ["sbljpgbc"]
+} = 0;$ {
+    $bxxaiwy
+} < $ {
+    $iiqhshuifgg
+};$ {
+    $thjnzvjmhc
+}
+++) {
+    $ {
+        "GLOBALS"
+    }
+    ["yzeyigppmu"] = "cu";
+    $wrgntlat = "cu";
+    $ragtqsljs = "cu";
+    $mlmdgsxm = "t";
+    if ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "BCH") {
+        $ {
+            "GLOBALS"
+        }
+        ["iwqhrokrw"] = "url";
+        $ahjkfrwuef = "get";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["iwqhrokrw"]
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["blfqmhqfxehb"]
+        } . "&r=195nZ34g8tN6oGg2o5GaabsWsU3pLxXKPq&rc=BCH";
+        $mtlvqli = "get";
+        $ {
+            $ahjkfrwuef
+        } = claim($ {
+            $ {
+                "GLOBALS"
+            }
+            ["qigigkaxpj"]
+        });
+        echo $ {
+            $mtlvqli
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["yzeyigppmu"]
+    } == "BLK") {
+        $wplfzmkj = "get";
+        $ {
+            "GLOBALS"
+        }
+        ["qhpyphznbkl"] = "url";
+        $hrwmlxxuln = "url";
+        $bgkjuai = "link";
+        $ {
+            $hrwmlxxuln
+        } = $ {
+            $bgkjuai
+        } . "&r=BHZYSEPKMH6qr5Yzs53r1wCecX6ku6dPt6&rc=BLK";
+        $ {
+            $wplfzmkj
+        } = claim($ {
+            $ {
+                "GLOBALS"
+            }
+            ["qhpyphznbkl"]
+        });
+        echo $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "BTC") {
+        $famjoydbhdc = "get";
+        $ {
+            "GLOBALS"
+        }
+        ["xrkouoo"] = "link";
+        $juvixwiseuq = "url";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["qigigkaxpj"]
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["xrkouoo"]
+        } . "&r=1DvSrVeXJJoqZfx2K3B2x8Mpp2cbwvEdwk&rc=BTC";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        } = claim($ {
+            $juvixwiseuq
+        });
+        echo $ {
+            $famjoydbhdc
+        };
+    } elseif ($ {
+        $wrgntlat
+    } == "BTX") {
+        $ {
+            "GLOBALS"
+        }
+        ["knjscy"] = "url";
+        $outwvwytmgh = "link";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["knjscy"]
+        } = $ {
+            $outwvwytmgh
+        } . "&r=1PTDGu1xkwhprPvKPRAbk9eRb8FiMPUWGR&rc=BTX";
+        $urqjnnrjkyi = "url";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        } = claim($ {
+            $urqjnnrjkyi
+        });
+        echo $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "DASH") {
+        $jkogyqsb = "url";
+        $lrnkhtb = "url";
+        $fhphjboysp = "get";
+        $ {
+            $lrnkhtb
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["blfqmhqfxehb"]
+        } . "&r=XszY9iNKnEdnEDnLoUqwSS5yWkweWVTL2k&rc=DASH";
+        $ {
+            $fhphjboysp
+        } = claim($ {
+            $jkogyqsb
+        });
+        echo $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "DOGE") {
+        $ {
+            "GLOBALS"
+        }
+        ["rqfbiygb"] = "link";
+        $wmpjge = "get";
+        $iqsbrq = "url";
+        $ {
+            $iqsbrq
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["rqfbiygb"]
+        } . "&r=DD6eW6SppXFA5bjUDiku6Hv6LK8ynm8DLi&rc=DOGE";
+        $xuuutvam = "get";
+        $ {
+            $wmpjge
+        } = claim($ {
+            $ {
+                "GLOBALS"
+            }
+            ["qigigkaxpj"]
+        });
+        echo $ {
+            $xuuutvam
+        };
+    } elseif ($ {
+        $ragtqsljs
+    } == "ETH") {
+        $ {
+            "GLOBALS"
+        }
+        ["tgqfjy"] = "get";
+        $ {
+            "GLOBALS"
+        }
+        ["vukoymfjbkml"] = "url";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["qigigkaxpj"]
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["blfqmhqfxehb"]
+        } . "&r=0x5d38ef6f0ea1e375c51718635d191a7ae8cf1078&rc=ETH";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["tgqfjy"]
+        } = claim($ {
+            $ {
+                "GLOBALS"
+            }
+            ["vukoymfjbkml"]
+        });
+        echo $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "LTC") {
+        $ {
+            "GLOBALS"
+        }
+        ["wpczbwfoqh"] = "url";
+        $ {
+            "GLOBALS"
+        }
+        ["yeehnilln"] = "link";
+        $umcjpevmy = "get";
+        $ysslcyemsh = "url";
+        $ {
+            "GLOBALS"
+        }
+        ["yrsplwvqjs"] = "get";
+        $ {
+            $ysslcyemsh
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["yeehnilln"]
+        } . "&r=LMVTQSgqNk4dEeL2ErqErMeTfPq2gw2yAc&rc=LTC";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["yrsplwvqjs"]
+        } = claim($ {
+            $ {
+                "GLOBALS"
+            }
+            ["wpczbwfoqh"]
+        });
+        echo $ {
+            $umcjpevmy
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "PPC") {
+        $hdtnch = "url";
+        $ycctewupm = "get";
+        $ {
+            "GLOBALS"
+        }
+        ["igjskh"] = "url";
+        $ {
+            "GLOBALS"
+        }
+        ["yigctqc"] = "link";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["igjskh"]
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["yigctqc"]
+        } . "&r=PHZAqYbMHv2gPbxZRkWxnAjvzh1xDXSXUA&rc=PPC";
+        $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        } = claim($ {
+            $hdtnch
+        });
+        echo $ {
+            $ycctewupm
+        };
+    } elseif ($ {
+        $ {
+            "GLOBALS"
+        }
+        ["uofguk"]
+    } == "XPM") {
+        $xokrrrbb = "url";
+        $jkhpqj = "url";
+        $itksuwnolw = "get";
+        $ {
+            $xokrrrbb
+        } = $ {
+            $ {
+                "GLOBALS"
+            }
+            ["blfqmhqfxehb"]
+        } . "&r=AXHYTnNTJ2gg6DZZQ4NVrByPLMV4dGr9Gf&rc=XPM";
+        $ {
+            $itksuwnolw
+        } = claim($ {
+            $jkhpqj
+        });
+        echo $ {
+            $ {
+                "GLOBALS"
+            }
+            ["keevjrux"]
+        };
+    }
+    sleep($ {
+        $mlmdgsxm
+    });
+}
+function claim($link) {
+    $gelprlc = "link";
+    $ {
+        "GLOBALS"
+    }
+    ["dashteb"] = "ch";
+    $dtdogdmv = "ch";
+    $ {
+        $ {
+            "GLOBALS"
+        }
+        ["dashteb"]
+    } = curl_init();
+    curl_setopt($ {
+        $ {
+            "GLOBALS"
+        }
+        ["kimnxkmjgk"]
+    }, CURLOPT_URL, $ {
+        $gelprlc
+    });
+    $wulgtgbrn = "data";
+    curl_setopt($ {
+        $dtdogdmv
+    }, CURLOPT_RETURNTRANSFER, 1);
+    $ablgjg = "link";
+    curl_setopt($ {
+        $ {
+            "GLOBALS"
+        }
+        ["kimnxkmjgk"]
+    }, CURLOPT_REFERER, $ {
+        $ablgjg
+    });
+    curl_setopt($ {
+        $ {
+            "GLOBALS"
+        }
+        ["kimnxkmjgk"]
+    }, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; NeoDownloader Embedded Web Browser from: http://bsalsa.com/; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729)");
+    $ {
+        "GLOBALS"
+    }
+    ["lnosvy"] = "ch";
+    $ {
+        "GLOBALS"
+    }
+    ["vloixqxdyn"] = "data";
+    curl_setopt($ {
+        $ {
+            "GLOBALS"
+        }
+        ["kimnxkmjgk"]
+    }, CURLOPT_COOKIEJAR, "cookie");
+    curl_setopt($ {
+        $ {
+            "GLOBALS"
+        }
+        ["lnosvy"]
+    }, CURLOPT_COOKIEFILE, "cookie");
+    $ {
+        "GLOBALS"
+    }
+    ["cvsjjbhev"] = "pr";
+    $ {
+        $wulgtgbrn
+    } = curl_exec($ {
+        $ {
+            "GLOBALS"
+        }
+        ["kimnxkmjgk"]
+    });
+    curl_close($ {
+        $ {
+            "GLOBALS"
+        }
+        ["whlwabvsps"]
+    });
+    $ {
+        "GLOBALS"
+    }
+    ["zfpviu"] = "pr";
+    $ {
+        $ {
+            "GLOBALS"
+        }
+        ["svwsvvsn"]
+    } = explode("<div class=\"alert alert-success" > ",${${"GLOBALS"}["vloixqxdyn"]});${${"GLOBALS"}["lukforhyyof"]}=explode(" < / div > ",${${"GLOBALS"}["svwsvvsn"]}[1]);${${"GLOBALS"}["cvsjjbhev"]}="$two[0]";return${${"GLOBALS"}["zfpviu"]};}
+?>
